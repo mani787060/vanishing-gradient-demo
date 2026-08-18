@@ -45,7 +45,7 @@ The two-moons dataset is useful for this demonstration because the classes are *
 
 ---
 
-## 🧠 What is the Vanishing Gradient Problem?
+## What is the Vanishing Gradient Problem?
 
 During neural network training, **backpropagation** calculates gradients that determine how the model's weights should be updated.
 
@@ -80,7 +80,7 @@ This behavior is known as the **Vanishing Gradient Problem**.
 
 ---
 
-## 🔬 Experiment Workflow
+## Experiment Workflow
 
 The notebook follows an experimental approach:
 
@@ -97,7 +97,7 @@ The notebook follows an experimental approach:
 
 ---
 
-## 🔄 Why Does It Happen?
+## Why Does It Happen?
 
 The vanishing gradient problem is strongly associated with activation functions whose derivatives can become very small.
 
@@ -109,7 +109,7 @@ This means that the earlier layers receive almost no useful learning signal.
 
 ---
 
-## 📉 Impact on Deep Neural Networks
+## Impact on Deep Neural Networks
 
 A severe vanishing gradient problem can lead to:
 
@@ -123,7 +123,7 @@ This is one reason modern neural network architectures often use techniques desi
 
 ---
 
-## 💡 Common Solutions
+## Common Solutions
 
 Several techniques can help reduce the impact of vanishing gradients:
 
@@ -145,7 +145,7 @@ Architectures such as **ResNet** use skip connections to provide more direct pat
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **Python**
 * **NumPy**
@@ -155,7 +155,7 @@ Architectures such as **ResNet** use skip connections to provide more direct pat
 
 ---
 
-## 📚 Key Concepts Demonstrated
+## Key Concepts Demonstrated
 
 * Artificial Neural Networks
 * Backpropagation
@@ -170,7 +170,7 @@ Architectures such as **ResNet** use skip connections to provide more direct pat
 
 ---
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 Through this project, I developed a deeper understanding of:
 
@@ -183,7 +183,7 @@ Through this project, I developed a deeper understanding of:
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 Possible extensions include:
 
@@ -198,7 +198,7 @@ Possible extensions include:
 
 ---
 
-## 💡 Final Takeaway
+## Final Takeaway
 
 The Vanishing Gradient Problem demonstrates an important limitation of training deep neural networks.
 
